@@ -1,0 +1,86 @@
+/* Estilo geral para a página */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+        }
+
+        /* Estilo para a seção principal */
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Estilo para o container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #000;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            position: relative;
+        }
+
+        /* Estilo para a imagem */
+        .imagem {
+            width: 100%;
+            display: block;
+            border-radius: 8px;
+            margin: 0 auto;
+        }
+
+        /* Estilo para o texto sobre a imagem */
+        .texto-sobre-imagem {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 80%;
+        }
+
+        .texto-sobre-imagem h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        .texto-sobre-imagem p {
+            margin: 10px 0 0;
+            font-size: 1.2em;
+        }
+
+        /* Estilo para o rodapé */
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #000;
+            padding: 10px 0;
+            color: #fff;
+            text-align: center;
+        }
+
+        /* Estilo para o banner de cookies */
+        .cookie-banner {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #000;
+            padding: 10px 0;
+            color: #fff;
+            text-align: center;
+        }
+
+        .cookie-banner button {
+            background-color: #000;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            outline: none;
+        }
